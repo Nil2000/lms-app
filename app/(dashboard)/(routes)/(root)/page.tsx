@@ -31,8 +31,8 @@ export default async function Dashborad() {
 					numberOfItems={completedCourses.length}
 					variant="success"
 				/>
-				<CourseList items={[...completedCourses, ...courseInProgress]} />
 			</div>
+			<CourseList items={[...completedCourses, ...courseInProgress]} />
 		</div>
 	);
 }
